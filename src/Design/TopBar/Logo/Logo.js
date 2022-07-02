@@ -10,7 +10,7 @@ export default function Logo() {
           fontSize: "5vh",
           color: "white",
           textShadow: "-1px 1px 10px rgba(0, 0, 0, 0.75)",
-          paddingTop: "5%",
+          paddingTop: "2%",
         }}
       >
         Vegetian

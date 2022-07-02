@@ -17,11 +17,14 @@ export default function TopBar() {
         <Grid item lg={2} md={1} xl={0}>
           <p>.</p>
         </Grid>
-        <Grid item xs={4} md={4}>
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <Grid item xs={4} md={2}>
             <Logo />
+        </Grid>
+        <Grid item xs={12} md={4}>
             <Menu />
-          </div>
+        </Grid>
+        <Grid item xs={12} md={4}>
+            <Menu />
         </Grid>
       </Grid>
     </div>

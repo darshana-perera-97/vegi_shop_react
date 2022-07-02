@@ -1,0 +1,9 @@
+#links {
+    text-Shadow: -1px 1px 10px rgba(255, 0, 0, 0.75);
+    letter-spacing: 0px
+}
+
+#links:hover {
+    text-Shadow: -1px 1px 10px rgba(255, 0, 0, 1);
+    letter-spacing: 1.5px
+}
