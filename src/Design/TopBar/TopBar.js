@@ -19,16 +19,16 @@ export default function TopBar() {
         <Grid item lg={2} md={1} xl={0}>
           <p style={{color:"green",margin:"0px"}}>.</p>
         </Grid>
-        <Grid item xs={4} md={2}>
+        <Grid item xs={4} sm={3}  md={2}>
           <Logo />
         </Grid>
-        <Grid item xs={12} md={5}>
+        <Grid item xs={12} sm={5} md={5}>
           <Menu />
         </Grid>
-        <Grid item xs={12} md={3}>
+        <Grid item xs={12} md={3} sm={1}>
           <RegisterBtn />
         </Grid>
-        <Grid item lg={2} md={1} xl={0}>
+        <Grid item lg={2} md={1}  xl={0}>
         <p style={{color:"green",margin:"0px"}}>.</p>
         </Grid>
       </Grid>
