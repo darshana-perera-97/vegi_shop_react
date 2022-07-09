@@ -11,6 +11,7 @@ export default function Logo() {
           color: "white",
           textShadow: "-1px 1px 10px rgba(0, 0, 0, 0.75)",
           paddingTop: "2%",
+          cursor:"pointer"
         }}
       >
         Vegetian
